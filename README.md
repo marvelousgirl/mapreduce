@@ -1,7 +1,7 @@
 # mapreduce
 用mapreduce计算框架实现了3个小demo: wordcount、基于物品的推荐算法(itemCF)和基于用户的推荐算法(userCF) <br>
 ## itemCF步骤： <br>
-
+<img src="https://github.com/marvelousgirl/mapreduce/tree/master/images/itemCF.png" width="150" height="150" alt="图片加载失败时，显示这段字"/>
 ### step1: 根据用户行为列表构建评分矩阵 <br>
 map输入：key:LongWritable类型，每一行的起始偏移量    value: Text类型 userID,itemID,score <br>
 map输出：key:Text类型  itemID     value: Text类型 userID_score <br>
