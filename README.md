@@ -1,5 +1,5 @@
 # mapreduce
-用mapreduce计算框架实现了3个小demo: wordcount、基于物品的推荐算法(itemCF)和基于用户的推荐算法(userCF) <br>
+用mapreduce计算框架实现了4个小demo: wordcount、带有词频属性的倒排索引算法、基于物品的推荐算法(itemCF)和基于用户的推荐算法(userCF) <br>
 ## itemCF步骤： <br>
 
 <img src="https://github.com/marvelousgirl/mapreduce/blob/master/images/itemCF.png"  alt="图片加载失败时，显示这段字"/>  
